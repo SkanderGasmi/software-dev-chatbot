@@ -16,7 +16,7 @@ class OpenAIAPI {
                     'Authorization': `Bearer ${apiKey}`,
                 },
                 body: JSON.stringify({
-                    model: "gpt-3.5-turbo", // safer, most keys have access
+                    model: "gpt-2", // safer, most keys have access
                     messages: conversationHistory.concat([{ role: 'user', content: userMessage }]),
                     max_tokens: 150
                 }),
