@@ -1,4 +1,3 @@
-console.log("OPENAI_API_KEY =", process.env.OPENAI_API_KEY);
 
 class OpenAIAPI {
     static async generateResponse(userMessage, conversationHistory = []) {
