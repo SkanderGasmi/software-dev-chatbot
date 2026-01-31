@@ -18,7 +18,7 @@ class OpenAIAPI {
                 body: JSON.stringify({
                     model: "gpt-2", // safer, most keys have access
                     messages: conversationHistory.concat([{ role: 'user', content: userMessage }]),
-                    max_tokens: 150
+                    max_tokens: 50
                 }),
             });
 
