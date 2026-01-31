@@ -1,4 +1,3 @@
-console.log(">>> LOADED OPENAI.JS VERSION 2 <<<");
 console.log("OPENAI_API_KEY =", process.env.OPENAI_API_KEY);
 
 class OpenAIAPI {
